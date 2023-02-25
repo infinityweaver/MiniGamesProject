@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MiniGamesProject.DealOrNoDealMiniGame">
+    <Position X="7" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IRAACAAAAAAEgAAkAAQAAQAACAAAAQAAAEQApAAAQAg=</HashCode>
+      <FileName>DealOrNoDealMiniGame.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Banker" />
+      <Property Name="ChosenCase" />
+      <Property Name="Currency" />
+      <Property Name="State" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="cases" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="MiniGamesProject.MiniGame">
+    <Position X="7" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAARAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>MiniGame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MiniGamesProject.DealOrNoDeal.Banker">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DealOrNoDeal\Banker.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="mode" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="MiniGamesProject.DealOrNoDeal.Case">
+    <Position X="3.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>DealOrNoDeal\Case.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GameState">
+    <Position X="10.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAIAAAAgAAAAAAAUAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>GameState.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="BankerMode">
+    <Position X="13.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>DealOrNoDeal\BankerMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Currency">
+    <Position X="11.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DealOrNoDeal\Currency.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
